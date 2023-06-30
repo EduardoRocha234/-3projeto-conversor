@@ -11,7 +11,7 @@ const writer = new Writer()
 
 async function main() {
     // ler o arquivo excel
-    const data = await read.Read('./Planilha para o Meio Ambiente.csv') 
+    const data = await read.Read('./exemple.csv') 
     // preocesso os dados (transforma em arrays)
     const dataProcess = Processor.Process(data) 
     // cria a tabela com header e rows
